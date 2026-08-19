@@ -12,10 +12,10 @@
 
 :root {
   /* colors */
-  --background-color: rgb(248, 241, 241);
+  --background-color: #f3c0c0;
   --light-color: #a5cff7;
-  --dark-color: #505050;
-  --text-color: #131313;
+  --dark-color: #f3c0c0;
+  --text-color: #f3ecec;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
 
@@ -38,10 +38,6 @@
 
   /* nav height */
   --nav-height: 64px;
-
-  h2 {
-     font-size: var(--heading-font-size-xl); /* Set font size for h2 */
-     }
     
      /* Add a partial yellow underline under H2 */
      h2::after {
