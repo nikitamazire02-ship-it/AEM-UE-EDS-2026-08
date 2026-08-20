@@ -12,10 +12,10 @@
 
 :root {
   /* colors */
-  --background-color: rgb(241, 203, 203);
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
+  --background-color: #f3c0c0;
+  --light-color: #a5cff7;
+  --dark-color: #f3c0c0;
+  --text-color: #f3ecec;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
 
@@ -38,19 +38,29 @@
 
   /* nav height */
   --nav-height: 64px;
+    
+     /* Add a partial yellow underline under H2 */
+     h2::after {
+     border-bottom: 2px solid var(--primary-color); /* Yellow underline */
+     content: "";
+     display: block;
+     padding-top: 8px;
+     width: 84px;
+     }
+    
 }
 
 /* fallback fonts */
 @font-face {
   font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
+  size-adjust: 98.82%;
   src: local('Arial');
 }
 
 @font-face {
   font-family: roboto-fallback;
   size-adjust: 99.529%;
-  src: local('Arial');
+  src: local('Times new roman');
 }
 
 @media (width >= 900px) {
